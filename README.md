@@ -1,67 +1,47 @@
-# AI-Resume-Screening
+# AI Resume Analyzer and Job Recommendation System
 
-AI Resume Analyzer and Job Recommendation System
-Project Overview
+## Project Overview
+The AI Resume Analyzer and Job Recommendation System is a full-stack web application that automates resume screening and job role suggestions using AI-based skill extraction. It integrates React (frontend), Spring Boot (backend), and Python Flask (AI service) to simulate a real-world recruitment workflow.
 
-This project is a full stack web application that analyzes uploaded resumes, extracts skills using an AI based Python service, and recommends suitable job roles based on those skills. It demonstrates integration between React frontend, Spring Boot backend, and a Python Flask service.
+---
 
-**Project Description**
-..Developed a full stack application to automate resume screening and job role suggestion.
+## Features
+- Upload resume in PDF format  
+- AI-based skill extraction using NLP  
+- Microservices architecture (React + Spring Boot + Flask)  
+- REST API communication between all services  
+- Job role recommendation based on extracted skills  
+- Clean UI to display skills and recommendations  
 
-..The user uploads a resume through a React based interface.
+---
 
-..The resume file is sent to a Spring Boot backend using REST APIs.
+## System Architecture
 
-..The backend forwards the file to a Python Flask service for processing.
+User → React Frontend → Spring Boot Backend → Python Flask NLP Service → Skill Extraction → Job Matching → Response → Frontend Display
 
-..The Python service uses natural language processing techniques to extract skills from the resume.
+---
 
-..Extracted skills are returned to the Spring Boot backend.
+## Tech Stack
 
-..The backend applies a simple matching logic to recommend relevant job roles based on skills.
+### Frontend
+- React.js  
+- HTML5  
+- CSS3  
+- JavaScript  
 
-..The final output including extracted skills and job recommendations is displayed in the frontend.
+### Backend
+- Spring Boot  
+- REST APIs  
 
+### AI Service
+- Python Flask  
+- NLP Libraries (spaCy / NLTK)  
+- PDF Parsing (PyPDF2 / pdfminer)  
 
-**Key Features**
-.Resume upload in PDF format
+---
 
-.Skill extraction using Python NLP processing
+## Project Structure
 
-.REST API communication between frontend, backend, and AI service
-
-.Job role recommendation based on skill matching
-
-.Full stack integration of React, Spring Boot, and Python
-
-
-**Tech Stack**
-
-Frontend
-
-React, HTML, CSS, JavaScript
-
-Backend
-
-Spring Boot, REST APIs
-
-**AI Service**
-
-Python Flask, NLP libraries, PDF parsing tools
-
-**How the System Works**
-
-User uploads a resume from the frontend.
-Spring Boot receives the file through an API.
-The file is sent to a Python service.
-Python extracts skills from the resume content.
-Extracted skills are sent back to the backend.
-Backend generates job recommendations based on skills.
-Results are displayed in the frontend.
-
-Outcome
-
-This project shows how full stack development and AI based text processing can be combined to build an automated resume screening system similar to real world recruitment tools.
 
 
 <img width="1867" height="829" alt="image" src="https://github.com/user-attachments/assets/7ceb2778-c488-40b7-a173-451148d4e8dd" />
