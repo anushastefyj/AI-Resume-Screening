@@ -1,4 +1,4 @@
-# AI Resume Analyzer and Job Recommendation System
+# AI Resume Analyzer System
 
 ## Project Overview
 The AI Resume Analyzer and Job Recommendation System is a full-stack web application that automates resume screening and job role suggestions using AI-based skill extraction. It integrates React (frontend), Spring Boot (backend), and Python Flask (AI service) to simulate a real-world recruitment workflow.
