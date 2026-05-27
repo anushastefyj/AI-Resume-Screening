@@ -1,0 +1,9 @@
+streamlit==1.36.0
+spacy==3.8.1
+PyPDF2==4.0.1
+scikit-learn==1.5.0
+requests==2.32.0
+fastapi==0.104.1
+uvicorn==0.24.0
+python-multipart==0.0.6
+numpy==1.26.4
