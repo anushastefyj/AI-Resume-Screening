@@ -1,0 +1,47 @@
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #eef2f3, #dfe9f3);
+  color: #2c3e50;
+}
+
+/* Smooth rendering */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Remove default list styles */
+ul {
+  list-style: none;
+}
+
+/* Anchor tags */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Buttons global style */
+button {
+  font-family: inherit;
+  transition: all 0.3s ease;
+}
+
+/* Input fields */
+input {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* Center root div */
+#root {
+  min-height: 100vh;
+}
